@@ -16,7 +16,6 @@
 <script>
 import Navbar from "~/components/Navbar";
 import Header from "~/components/Header";
-import CarbonAd from "~/components/CarbonAd";
 import Effects from "~/components/Effects";
 import Inspect from "~/components/Inspect";
 import Controls from "~/components/Controls";
@@ -24,7 +23,7 @@ import { effects } from "~/assets/effects.js";
 import { shuffleEffects } from "~/assets/utils.js";
 
 export default {
-  components: { Navbar, Header, CarbonAd, Effects, Inspect, Controls },
+  components: { Navbar, Header, Effects, Inspect, Controls },
   data() {
     return { effects, inspecting: false, inspectSrc: {} };
   },
